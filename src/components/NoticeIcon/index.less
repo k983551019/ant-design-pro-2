@@ -1,4 +1,4 @@
-@import '~antd/lib/style/themes/default.less';
+@import '~antd/es/style/themes/default.less';
 
 .popover {
   position: relative;
@@ -21,6 +21,10 @@
 
 .tabs {
   :global {
+    .ant-tabs-nav-list {
+      margin: auto;
+    }
+
     .ant-tabs-nav-scroll {
       text-align: center;
     }
